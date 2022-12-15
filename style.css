@@ -401,3 +401,8 @@ right: 5px;
 .pb{
       left: 41%;
 }
+@media only screen and (min-width:400px){
+#info{
+Margin:20px 20px;
+}
+}
