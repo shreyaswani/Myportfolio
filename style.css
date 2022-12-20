@@ -401,7 +401,8 @@ right: 5px;
 .pb{
       left: 41%;
 }
-@media only screen and (min-width:360px) and (max-width:400px){
-Color:yellow;
-}
+ @media only screen and (max-width: 600px) {
+  body{
+    background: red;
+  }
 }
