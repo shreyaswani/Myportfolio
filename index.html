@@ -5,6 +5,7 @@
     <title>Shreyas Wani</title>
       <link rel="icon" type="image/png" sizes="32x32" href="fevicon/1.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="phone.css" />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Montserrat:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins&family=Space+Grotesk:wght@400;500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
   <script src="https://kit.fontawesome.com/80897816fd.js" crossorigin="anonymous"></script>
@@ -13,6 +14,9 @@
 <nav>
     <div class="list">
     <img class="logo" src="2.png" alt="">
+    <label class="label1">
+    <input class="hide" type="checkbox">
+    <span class="menu"> <span class="hamburger"></span> </span>
     <ul class="ul">
       <li class="navv"><a href="#container">Home</a></li>
       <li class="navv"><a href="#About">About</a></li>
@@ -20,6 +24,7 @@
       <li class="navv"><a href="#">Project</a></li>
       <li class="navv" id="con"><a href="#">Contact</a></li>
     </ul>
+    </label>
   </div>
 </nav>
 <div id="container">
@@ -143,6 +148,38 @@ btn.onclick = function () {
     targetDiv.style.display = "none";
   }
 };
+  
+  $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
 </script>
   </body>
 </html>
