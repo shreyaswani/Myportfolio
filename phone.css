@@ -14,14 +14,18 @@ display: inline-block;
 position: fixed;
   /* 8bbae4, fd7500 */
 }
+ .menu{
+  position: relative;
+  left: 720px;
+}
 
 .label1 .menu {
   position: absolute;
   right: -100px;
   top: -100px;
   z-index: 100;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   background: #134067;
   border-radius: 100% 0% 0% 100%;
   -webkit-transition: .5s ease-in-out;
