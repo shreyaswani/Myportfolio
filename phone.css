@@ -8,7 +8,7 @@ body{
 
 .logo{
 width: 9%;
-margin: 15px 0 0 30px;
+margin: 50px 0 0 50px;
 opacity: 0.9;
 display: inline-block;
 position: fixed;
@@ -20,10 +20,10 @@ position: fixed;
   right: -100px;
   top: -100px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   background: #134067;
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 100% 0% 0% 100%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #134067, 0 0 0 0 #134067;
@@ -33,20 +33,17 @@ position: fixed;
 
 .label1 .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
-  width: 30px;
-  height: 2px;
+  top: 200px;
+  left: 110px;
+  width: 70px;
+  height: 6px;
   background: white;
   display: block;
-  -webkit-transform-origin: center;
   transform-origin: center;
-  -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
 
 .label1 .hamburger:after, .label1 .hamburger:before {
-  -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
   position: absolute;
@@ -56,9 +53,9 @@ position: fixed;
   background: white;
 }
 
-.label1 .hamburger:before { top: -10px; }
+.label1 .hamburger:before { top: -25px; }
 
-.label1 .hamburger:after { bottom: -10px; }
+.label1 .hamburger:after { bottom: -25px; }
 
 .label1 .hide { display: none; }
 
@@ -98,23 +95,4 @@ position: fixed;
   transition: .25s 0s ease-in-out;
   display: flex;
   flex-direction: column;
-}
-
-.navv{
-  list-style: none;
-  
-}
-.navv a{
-color: white;
-font-family: 'Montserrat';
-text-decoration:underline;
-text-decoration-color: #8bbae4;
-text-decoration-thickness: 1px;
-  text-underline-offset: 0.3em;
-text-underline-position:under;
-}
-
- .navv a:hover{
-text-decoration-color: #fd7500;
-text-underline-offset: 0.3em;
 }
