@@ -16,7 +16,7 @@ position: fixed;
 }
  .menu{
   position: relative;
-  left: 720px;
+  left: 750px;
 }
 
 .label1 .menu {
@@ -37,8 +37,8 @@ position: fixed;
 
 .label1 .hamburger {
   position: absolute;
-  top: 200px;
-  left: 110px;
+  top: 190px;
+  left: 115px;
   width: 70px;
   height: 6px;
   background: white;
