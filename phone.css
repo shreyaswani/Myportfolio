@@ -93,10 +93,35 @@ position: fixed;
 
 .label1 .ul {
   z-index: 200;
-  transform: translate(-100%, 100%);
-  margin-top: 0px;
+  transform: translate(108%, 46%);
   opacity: 0;
   transition: .25s 0s ease-in-out;
   display: flex;
   flex-direction: column;
+}
+
+
+ .ul{
+  display: flex;
+   position: fixed;
+ }
+.navv{
+  list-style: none;
+  margin-top: 50px;
+}
+.navv a{
+font-size: 75px;
+color: white;
+font-family: 'Montserrat';
+text-decoration:underline;
+text-decoration-color: #8bbae4;
+text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
+text-underline-position:under;
+}
+
+.navv a:hover{
+font-size: 74.9px;
+text-decoration-color: #fd7500;
+text-underline-offset: 0.29em;
 }
