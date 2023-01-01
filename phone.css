@@ -25,7 +25,7 @@ position: fixed;
   top: -80px;
   z-index: 100;
   width: 320px;
-  height: 320px;
+  height: 330px;
   background: #134067;
   border-radius: 100% 0% 0% 100%;
   -webkit-transition: .5s ease-in-out;
