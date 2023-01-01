@@ -110,6 +110,7 @@ position: fixed;
   margin-top: 50px;
 }
 .navv a{
+  line-height: 3;
 font-size: 75px;
 color: white;
 font-family: 'Montserrat';
