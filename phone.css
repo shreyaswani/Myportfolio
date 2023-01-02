@@ -8,23 +8,19 @@ body{
 
 .logo{
 width: 12%;
-margin: 45px 0 0 45px;
+margin: 50px 0 0 50px;
 opacity: 0.9;
 display: inline-block;
 position: fixed;
   /* 8bbae4, fd7500 */
 }
- .menu{
-  position: relative;
-  left: 800px;
-}
 
 .label1 .menu {
   position: absolute;
-  right: -350px;
+  right: -10px;
   top: -80px;
   z-index: 100;
-  width: 320px;
+  width: 310px;
   height: 330px;
   background: #134067;
   border-radius: 100% 0% 0% 100%;
@@ -86,7 +82,6 @@ position: fixed;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
-
 }
 
 .label1 .hide:checked + .menu + .ul { opacity: 1; }
@@ -107,9 +102,10 @@ position: fixed;
  }
 .navv{
   list-style: none;
+  /* margin-top: 50px; */
 }
 .navv a{
-  line-height: 200px;
+  line-height: 100px;
 font-size: 75px;
 color: white;
 font-family: 'Montserrat';
@@ -168,36 +164,35 @@ font-weight: bold;
 #detail-info{
   font-size: 3rem;
   color: rgb(136, 146, 176);
-padding:40px 60px 0 0;
+padding:30px 60px 0 0;
 }
-.fa-arrow-right{
-  margin-left: 10px;
+.ml-3{
+position: relative;
+top: 8px;
   transition: all 0.5s ease;
+
 }
 
-.button-77:hover > .fa-arrow-right{
+.button-77:hover > .ml-3{
   transform: rotateZ(90deg);
 }
 .button-77 {
-  margin:60px 0 0 0;
-  align-items: center;
+  margin:70px 0 0 0;
+  /* align-items: center; */
   background: transparent;
   color: #fff;
   cursor: pointer;
-  font-family: 'poppins';
-  font-size: 55px;
-  font-weight: lighter;
-  justify-content: center;
-  text-align: center;
+  font-size: 50px;
+  /* font-weight: lighter; */
+  /* justify-content: center; */
+  /* text-align: center; */
   border: 5px solid white;
   border-radius: 1px;
-padding:15px 15px;
-width: 70%;
+padding:25px 15px;
+width: 50%;
 position: relative;
 }
 .button-77:hover{
   background:#fd7500;
   border-style: none;
-  padding:11px 16px;
-
 }
