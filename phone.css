@@ -84,15 +84,17 @@ position: fixed;
   top: 0;
 }
 
-.label1 .hide:checked + .menu + .ul { opacity: 1; }
+.label1 .hide:checked + .menu + .ul { opacity: 1;
+  display: flex;
+ }
 
 .label1 .ul {
   z-index: 200;
   transform: translate(108%, 46%);
   opacity: 0;
   transition: .25s 0s ease-in-out;
-  display: flex;
   flex-direction: column;
+  display: none;
 }
 
 
@@ -105,7 +107,7 @@ position: fixed;
   /* margin-top: 50px; */
 }
 .navv a{
-  line-height: 100px;
+  line-height: 200px;
 font-size: 75px;
 color: white;
 font-family: 'Montserrat';
