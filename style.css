@@ -250,6 +250,7 @@ padding: 0 130px;
     display: none;
 animation: same 1s ;
 box-shadow: 0 0 8px 0px #8bbae4;
+z-index: 100;
 }
 @keyframes same {
   0% {opacity:0}
@@ -259,6 +260,7 @@ box-shadow: 0 0 8px 0px #8bbae4;
    box-shadow:none;
    /* border: 1px solid transparent; */
    border: 1px solid white;
+   z-index: 100;
 }
 
 .heading4{
@@ -655,6 +657,17 @@ text-decoration: none;
   display: none;
 } 
 
-.btn5{
-display: none;
-} 
+/* #name{
+  background-color: #fd7500;
+  background-image: linear-gradient(45deg, #c2622a, #532b09);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+} */
+
+.phonee{
+  display: none;
+}
