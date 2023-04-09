@@ -1,3 +1,9 @@
+/* change at skilldiv  padding 16 */
+/* change at boxximg tralate 300px  */
+/* change at boxtext2 and boxxtext2 fontsize 12px */
+
+
+
 /* *{
   box-sizing: border-box;
   margin: 0;
@@ -740,12 +746,12 @@ width: 50%;
 
 .skilldiv{
   display: grid;
-  width: 90%;
+  /* width: 90%; */
   padding-bottom: 5rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   text-align: center;
-  /* padding: 2rem 0 0 0; */
+  padding:16px;
   /* margin:1rem auto 0; */
 }
 
@@ -790,14 +796,18 @@ width: 50%;
 }
 
 #btn1{
-  height: 2vh;
+  height: 15vh;
   width: 100%;
 }
 
 #btn2{
   height: 10vh;
   width: 100%;
+  /* background-color: #fff; */
+  position: relative;
+  top: 240px;
 }
+
 #btn3{
   height: 20vh;
   width: 100%;
@@ -885,7 +895,8 @@ font-weight: 700;
 padding: 0.5rem;
 margin: 0;
 font-family: 'poppins';
-font-size: 14px;
+font-size: 12px;
+/* word-break: break-all; */
 }
 
 .span2{
@@ -932,10 +943,10 @@ text-decoration: none;
 }
 
 .boxximg{
-  margin: 16px 0 0 0;
+  margin-top: 16px;
   width: 16rem;
   border-radius: 0.375rem;
- transform: translateY(-355px)
+ transform: translateY(-300px)
 }
 
 .boxxin1{
@@ -960,7 +971,7 @@ text-decoration: none;
   padding: 0.5rem;
   margin: 0;
   font-family: 'poppins';
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .span3{
@@ -1040,8 +1051,37 @@ padding-bottom: 120px;
   background:#fd7500;
   border: 2px solid #081831;
 }
-.btn5{
-margin-top: 90px;
-  height: 20vh;
+#btn5{
+  height: 14vh;
   width: 100%;
+}
+
+.compee{
+  display: none;
+  visibility: hidden;
+}
+
+
+.last1{
+  display: flex;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.last11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family:'Montserrat';
+  font-size: 12px;
+  color: rgb(209 213 219);
+}
+
+.last11:hover{
+  color: rgb(255, 255, 255);
 }
