@@ -343,10 +343,8 @@ body {
   display: none;
 }
 
-.projects {
-  position: relative;
+.Projects {
   z-index: 500;
-  margin-top: 100px;
   width: 100%;
   height: 100vh;
 }
